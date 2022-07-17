@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogo</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    
+    <!-- Link Swiper's CSS -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/616d889ddf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <header>
+            <nav class="unipadding grid-col-2">
+                <div class="logoDiv">
+                    <p>MoGo</p>
+                </div>
+                <div class="menuDiv">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Work</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    </ul>
+                    <span class="openMenu" onclick="openMenu()">&#9776;</span>
+                    
+                </div>
+                <ul id="mobileMenu">
+                    <li ><a href="javascript:void(0)"  id="cross" onclick="closeMenu()">&#xd7;</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                </ul>
+            </nav>
+
+            <div class="heroSection unipadding">
+                <p>Creative Template</p>
+                <h1>WELCOME TO<br>MOGO</h1>
+                <a href="" class="btn">LEARN MORE</a>
+            </div>
+        </header>
+
+
+        <main>
+            <!-- what we do section -->
+            <section class="whatWeDo unipadding section d-flex">
+                <p class="miniSectionHeading">What we do</p>
+                <h2 class="sectionHeading">STORY ABOUT US</h2>
+                <p class="sectionInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <div class="grid-col-3 teamDiv">
+                    <div class="team">
+                        <figure>
+                            <img src="images/whatWeDoOne.jpg" alt="whatwedo">
+                        </figure>
+                        <div class="overlay">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3>Super Team</h3>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <figure>
+                            <img src="images/whatWeDoTwo.jpg" alt="whatwedo">
+                        </figure>
+                        <div class="overlay">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3>Alpha Team</h3>
+                        </div>
+                    </div>
+                    <div class="team">
+                        <figure>
+                            <img src="images/whatWeDoThree.jpg" alt="whatwedo">
+                        </figure>
+                        <div class="overlay">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3>Omega Team</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ANimated numbers -->
+            <section class="unipadding grid-col-5 animatedNumberSectin workSection" id="animatedNumber">
+                <div class="animatedNumberDiv">
+                    <h2 class="animationNumbers" data-number="42">0</h2>
+                    <p class="numbersInfo">Web Design Projects</p>
+                </div>
+                <div class="animatedNumberDiv">
+                    <h2 class="animationNumbers" data-number="123">0</h2>
+                    <p class="numbersInfo">Happy Clients</p>
+                </div>
+                <div class="animatedNumberDiv">
+                    <h2 class="animationNumbers" data-number="15">0</h2>
+                    <p class="numbersInfo">Award Winner</p>
+                </div>
+                <div class="animatedNumberDiv">
+                    <h2 class="animationNumbers" data-number="99">0</h2>
+                    <p class="numbersInfo">Cup of Coffee</p>
+                </div>
+                <div class="animatedNumberDiv">
+                    <h2 class="animationNumbers" data-number="24">0</h2>
+                    <p class="numbersInfo">Members</p>
+                </div>
+            </section>
+
+            <!-- amazing services section -->
+            <section class="d-flex section unipadding serviceSection">
+                <p class="miniSectionHeading">We work with</p>
+                <h2 class="sectionHeading">AMAZING SERVICES</h2>
+                <div class="services grid-col-3">
+                    <div class="service">
+                        <div class="iconDiv">
+                            <i class="fa-solid fa-camera"></i>
+                        </div>
+                        <div class="serviceInfoDiv">
+                            <h3>PHOTOGRAPHY</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam facere eum.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="iconDiv">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <div class="serviceInfoDiv">
+                            <h3>WEB DESIGN</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam facere eum.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="iconDiv">
+                            <i class="fa-solid fa-display"></i>
+                        </div>
+                        <div class="serviceInfoDiv">
+                            <h3>CREATIVITY</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam facere eum.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="iconDiv">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="serviceInfoDiv">
+                            <h3>SEO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam facere eum.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="iconDiv">
+                            <i class="fa-solid fa-file-code"></i>
+                        </div>
+                        <div class="serviceInfoDiv">
+                            <h3>CSS/HTML</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam facere eum.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="iconDiv">
+                            <i class="fa-solid fa-qrcode"></i>
+                        </div>
+                        <div class="serviceInfoDiv">
+                            <h3>DIGITAL</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam facere eum.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Unique Design Section -->
+            <section class="d-flex section uniqueDesignSection unipadding">
+                <p class="miniSectionHeading">For all devices</p>
+                <h2 class="sectionHeading">UNIQUE DESIGN</h2>
+                    <figure>
+                        <img src="images/ipad.png" alt="ipad">
+                    </figure>
+                    <figure class="iphone">
+                        <img src="images/iphone.png" alt="iphone">
+                    </figure>
+            </section>
+
+            <!-- What we do section -->
+            <section class="d-flex section whatWeDoSection unipadding">
+                <p class="miniSectionHeading">What we do</p>
+                <h2 class="sectionHeading">STORY ABOUT US</h2>
+                <p class="sectionInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <div class="grid-col-2 accordDivParent">
+                    <div>
+                        <figure>
+                            <img id="meaw" src="images/imageChange/whatWeDoImageOne.jpg" alt="whatWeDoImageOne">
+                        </figure>
+                    </div>
+                    <div class="accordDiv">
+                        <ul id="accordian">
+                            <li class="imageChange" data-value="One">
+                                <label for="first"><i class="fa-solid fa-book-open accordIcon"></i>PHOTOGRAPHY</label>
+                                <input type="radio" name="accordian" id="first" checked>
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum in fugiat consequuntur explicabo corrupti molestias eius ipsa, voluptatem impedit iure neque est vero temporibus et doloremque illum esse quod molestiae?
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quibusdam, dolore suscipit eaque, deleniti culpa porro tenetur architecto nam, excepturi facere unde velit ducimus aliquam est perspiciatis at! Voluptatum, dolores.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="imageChange" data-value="Two">
+                                <label for="second"> <i class="fa-solid fa-file-code accordIcon"></i>CREATIVITY</label>
+                                <input type="radio" name="accordian" id="second">
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum in fugiat consequuntur explicabo corrupti molestias eius ipsa, voluptatem impedit iure neque est vero temporibus et doloremque illum esse quod molestiae?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat illum cumque soluta accusamus minus harum. Rem hic rerum, aspernatur iure perspiciatis voluptatibus qui nobis deleniti debitis impedit vero dicta?
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="borderNoneList imageChange" data-value="Three">
+                                <label for="third"> <i class="fa-solid fa-qrcode accordIcon"></i>WEB DESIGN</label>
+                                <input type="radio" name="accordian" id="third">
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum in fugiat consequuntur explicabo corrupti molestias eius ipsa, voluptatem impedit iure neque est vero temporibus et doloremque illum esse quod molestiae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit repudiandae voluptates odit eum consequuntur rerum illum harum nobis repellat! Rem debitis repellendus, consequatur aperiam quo maxime exercitationem voluptate cupiditate.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- first slider section -->
+            <div class="d-flex section unipadding firstSliderSection">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Jon Doe</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Alex A</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Greta B</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Don Sam</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <i class="fa-solid fa-comments"></i>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Hopler A</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!-- Meet Our Team section -->
+            <section class="unipadding d-flex section meetOurTeamSection">
+                <p class="miniSectionHeading">Who we are</p>
+                <h2 class="sectionHeading">Meet our team</h2>
+                <p class="sectionInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <div class="grid-col-3 professionalsDiv">
+                    <div class="ProfessionalsChild">
+                        <div class="teamImageDiv">
+                            <figure>
+                                <img src="images/mathew.jpg" alt="profesional">
+                            </figure>
+                            <div class="overlay-two">
+                                <i class="fa-brands fa-facebook-square"></i>
+                                <i class="fa-brands fa-twitter-square"></i>
+                                <i class="fa-brands fa-pinterest-square"></i>
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </div>
+                        </div>
+                        <div class="profInfo">
+                            <h3>Mathew Dix</h3>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                    <div class="ProfessionalsChild">
+                        <div class="teamImageDiv">
+                            <figure>
+                                <img src="images/professionalsTwo.jpg" alt="professional">
+                            </figure>
+                            <div class="overlay-two">
+                                <i class="fa-brands fa-facebook-square"></i>
+                                <i class="fa-brands fa-twitter-square"></i>
+                                <i class="fa-brands fa-pinterest-square"></i>
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </div>
+                        </div>
+                        <div class="profInfo">
+                            <h3>Cristopher CAmpebell</h3>
+                            <p>Branding/UI Designer</p>
+                        </div>
+                    </div>
+                    <div class="ProfessionalsChild">
+                        <div class="teamImageDiv">
+                            <figure>
+                                <img src="images/professionalsThree.jpg" alt="professional">
+                            </figure>
+                            <div class="overlay-two">
+                                <i class="fa-brands fa-facebook-square"></i>
+                                <i class="fa-brands fa-twitter-square"></i>
+                                <i class="fa-brands fa-pinterest-square"></i>
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </div>
+                        </div>
+                        <div class="profInfo">
+                            <h3>Michal Fertigue</h3>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Moving logos sections -->
+            <div class="moovingLogo  section d-flex">
+                <div class="marquee">
+                    <ul class="marqueeContent">
+                        <li>
+                            <figure>
+                                <img src="images/photoLogoOne.jpg" alt="logo">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/photoLogoTwo.jpg" alt="logo">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/photoLogoThree.jpg" alt="logo">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/photoLogoFour.jpg" alt="logo">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/photologoFive.jpg" alt="logo">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="images/photoLogoSix.jpg" alt="logo">
+                            </figure>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Our Work Section -->
+            <section class="d-flex section ourWorkSection">
+                <p class="miniSectionHeading">What we do</p>
+                <h2 class="sectionHeading">SOME OF OUR WORK</h2>
+                <p class="sectionInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <div class="ourWorkParent grid-col-4">
+                    <div class="ourWorks grid-row-2">
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workOne.jpg" alt="work">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workTwo.jpg" alt="work">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ourWorks grid-row-2">
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workThree.jpg" alt="work">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workFour.jpg" alt="wprk">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ourWorks grid-row-2" id="ourWorksFull">
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workFive.jpg" alt="work">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                            
+                       
+                    </div>
+                    <div class="ourWorks grid-row-2">
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workSix.jpg" alt="work">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                        <div class="ourWorksParent">
+                            <figure>
+                                <img src="images/workSeven.jpg" alt="work">
+                            </figure>
+                            <div class="overlay-three">
+                                <i class="fa-solid fa-image"></i>
+                                <h3>CREATIVELY DESIGNED</h3>
+                                <p class="sectionInfo">lorem ipsum dolar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- second slider section -->
+            <!-- first slider section -->
+            <div class="d-flex section unipadding firstSliderSection secondSliderSection">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <figure>
+                                    <img src="images/sliderTwoImages/PersonOne.jpg" alt="person">
+                                </figure>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Mindflayer</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <figure>
+                                    <img src="images/sliderTwoImages/personTwo.jpg" alt="person">
+                                </figure>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Vecna</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <figure>
+                                    <img src="images/sliderTwoImages/PersonThree.jpg" alt="person">
+                                </figure>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Roman</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <figure>
+                                    <img src="images/sliderTwoImages/PersonFour.jpg" alt="person">
+                                </figure>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Ganpi</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <figure>
+                                    <img src="images/sliderTwoImages/PersonFive.jpg" alt="person">
+                                </figure>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Jessie</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="firstSliderSlide">
+                            <div class="iconDiv">
+                                <figure>
+                                    <img src="images/sliderTwoImages/PersonSix.jpg" alt="person">
+                                </figure>
+                            </div>
+                            <div class="commentDiv">
+                                <p class="comment">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dicta delectus tempore incidunt labore consequuntur rerum dolorem culpa aliquid libero maiores veniam esse harum, accusamus repellendus? Ea totam aperiam eveniet."</p>
+                                <p class="pname">Alexa</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <!-- third slider section -->
+            <section class="unipadding d-flex section thirdSliderSection">
+                <p class="miniSectionHeading">Happy Clients</p>
+                <h2 class="sectionHeading">WHAT PEOPLE SAY</h2>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="whatPeopleSayParent grid-col-2">
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewOne.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Alberta Dix</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewTwo.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Nick Karvoinous</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewThree.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Jaylyn Castello</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewFour.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Mike Petrucci</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="whatPeopleSayParent grid-col-2">
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewFive.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Matthew Dix</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewSix.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Nick Karvoinous</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewSeven.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Jaylyn Castello</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewEight.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Mike Petrucci</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                          </div>
+                          <div class="swiper-slide">
+                            
+                            <div class="whatPeopleSayParent grid-col-2">
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewNine.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Matthew Dix</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewTen.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Nick Karvoinous</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewEleven.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Jaylyn Castello</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+
+                                <div class="whatChilds">
+                                    <div class="whatImageDiv">
+                                        <figure>
+                                            <img src="images/whatPeopleSay/reviewEleven.jpg" alt="person">
+                                        </figure>
+                                    </div>
+                                    <div class="whatComment">
+                                        <h3>Mike Petrucci</h3>
+                                        <span class="whatProf">Grapgic Design</span> 
+                                        <p class="whatsComment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis id dolorum officiis perferendis maiores suscipit perspiciatis cupiditate fuga quasi odio?</p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="d-flex unipadding seection blog">
+                <p class="miniSectionHeading">Our stories</p>
+                <h2 class="sectionHeading">LATEST BLOG</h2>
+                <div class="blogDiv grid-col-3">
+                    <div>
+                        <div class="blogImage">
+                            <figure>
+                                <img src="images/blogImageOne.jpg" alt="blog">
+    
+                            </figure>
+                            <span class="blogDate">
+                                <b class="date">15</b><br><b class="month">Jan</b>
+                            </span>
+                        </div>
+                        <h3 class="blogHeading">Lorem ipsum dolor sit</h3>
+                        <p class="blogComment">Faklfd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, molestiae?</p>
+                        <hr>
+                        <span class="blogReact"><i class="fa-solid fa-eye blogIcon"></i></span>
+                        <span class="blogReact"><i class="fa-solid fa-comment blogIcon"
+                        ></i></span>
+                    </div>
+
+                    <div>
+                        <div class="blogImage">
+                            <figure>
+                                <img src="images/blogImageTwo.jpg" alt="blog">
+    
+                            </figure>
+                            <span class="blogDate">
+                                <b class="date">15</b><br><b class="month">Jan</b>
+                            </span>
+                        </div>
+                        <h3 class="blogHeading">Lorem ipsum dolor sit</h3>
+                        <p class="blogComment">Faklfd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, molestiae?</p>
+                        <hr>
+                        <span class="blogReact"><i class="fa-solid fa-eye blogIcon"></i></span>
+                        <span class="blogReact"><i class="fa-solid fa-comment blogIcon"
+                        ></i></span>
+                    </div>
+
+                    <div>
+                        <div class="blogImage">
+                            <figure>
+                                <img src="images/blogImageThree.jpg" alt="blog">
+    
+                            </figure>
+                            <span class="blogDate">
+                                <b class="date">15</b><br><b class="month">Jan</b>
+                            </span>
+                        </div>
+                        <h3 class="blogHeading">Lorem ipsum dolor sit</h3>
+                        <p class="blogComment">Faklfd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, molestiae?</p>
+                        <hr>
+                        <span class="blogReact"><i class="fa-solid fa-eye blogIcon"></i></span>
+                        <span class="blogReact"><i class="fa-solid fa-comment blogIcon"
+                        ></i></span>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+            <!-- map section -->
+            <div class="section d-flex mapSection">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.2124294534437!2d72.83042711683035!3d18.92198912672145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1c73a0d5cad%3A0xc70a25a7209c733c!2sGateway%20Of%20India%20Mumbai!5e0!3m2!1sen!2sin!4v1656227332379!5m2!1sen!2sin" width="100" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="unipadding section d-flex">
+            <div class="grid-col-3 footerParentDiv">
+                <div class="dflex">
+                    <p class="footerLogo">MoGo</p>
+                    <p class="footerP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed eius cumque eum porro, possimus omnis quos fugiat rerum repudiandae officia suscipit dolorum sunt soluta et. Necessitatibus sed beatae laudantium.</p>
+                    <p class="followers">15K followers</p>
+                    <p class="footerIcon">Follow us:  </p>
+                    
+                    <div class="email">
+                        <form action="index.php" method="post">
+                            <input type="email" name="email" id="email" placeholder="Your Email">
+                            <input type="submit" value="Subscibe" id="submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="dflex">
+                    <h2 class="headingFooter">
+                        BLOGS
+                    </h2>
+                    <div class="blogFooterParent">
+                        <div class="footerBlogs">
+                            <figure>
+                                <img src="images/blog/bloggieOne.jpg" alt="blog">
+                            </figure>
+                            <div class="blogInfo">
+                                <p class="blogFooterInfo">
+                                    Lorem ipsum dolor sit<br>
+                                     amet consectetur.
+                                </p>
+                                <p class="footerDate">Jan 9,2016</p>
+                            </div>
+                        </div>
+                        <div class="footerBlogs">
+                            <figure>
+                                <img src="images/blog/bloggieTwo.jpg" alt="blog">
+                            </figure>
+                            <div class="blogInfo">
+                                <p class="blogFooterInfo">
+                                    Lorem ipsum dolor sit<br>
+                                     amet consectetur.
+                                </p>
+                                <p class="footerDate">Jan 9,2016</p>
+                            </div>
+                        </div>
+                        <div class="footerBlogs">
+                            <figure>
+                                <img src="images/blog/bloggieThree.jpg" alt="blog">
+                            </figure>
+                            <div class="blogInfo">
+                                <p class="blogFooterInfo">
+                                    Lorem ipsum dolor sit<br>
+                                     amet consectetur.
+                                </p>
+                                <p class="footerDate">Jan 9,2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dflex">
+                    <h2 class="headingFooter">
+                        INSTAGRAM
+                    </h2>
+                    <div class="grid-col-3 grid-row-3  instaPostDiv">
+                        <figure>
+                            <img src="images/instaposts/instaOne.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaTwo.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaThree.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaFour.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaFive.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaSix.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaSeven.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaEight.jpg" alt="post">
+                        </figure>
+                        <figure>
+                            <img src="images/instaposts/instaNine.jpg" alt="post">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop:true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+        
+    </script>
+    <script>
+        var swiperTwo = new Swiper(" .mySwiperTwo", {
+            loop:true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+
+
+    <!-- Javacript -->
+    <script src="index.js"></script>
+
+</body>
+</html>
