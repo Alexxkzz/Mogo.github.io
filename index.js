@@ -31,7 +31,7 @@ labels.forEach((elem) => {
         // console.log(value);
         const meaw = document.getElementById('meaw');
         // console.log(meaw);
-        meaw.setAttribute('src', `/images/imageChange/whatWeDoImage${value}.jpg`)
+        meaw.setAttribute('src', `images/imageChange/whatWeDoImage${value}.jpg`)
     })
 })
 
