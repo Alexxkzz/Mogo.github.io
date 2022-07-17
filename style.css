@@ -1191,7 +1191,14 @@ footer{
     .btn {
         padding: 0.7rem 1rem;
     }
-
+    .grid-col-5 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .teamDiv{
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
     /* hero section */
     .openMenu {
         font-size: 1rem;
